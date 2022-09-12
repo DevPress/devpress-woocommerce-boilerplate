@@ -58,7 +58,7 @@ if ( empty( $bootstrap ) ) {
 require_once $tests_dir . '/includes/functions.php';
 
 tests_add_filter( 'muplugins_loaded', function () use ( $project_dir ) {
-	require_once $project_dir . '/woocommerce-coupon-restrictions.php';
+	require_once $project_dir . '/devpress-woocommerce-boilerplate.php';
 } );
 
 // Finally, start up the WP testing environment.
@@ -67,6 +67,6 @@ require_once $bootstrap;
 
 echo esc_html( sprintf(
 	/* Translators: %1$s is the WooCommerce release being loaded. */
-	__( 'Using WooCommerce %1$s.', 'woocommerce-coupon-restrictions' ),
+	__( 'Using WooCommerce %1$s.', 'devpress-woocommerce-boilerplate' ),
 	WC_VERSION
 ) ) . PHP_EOL;

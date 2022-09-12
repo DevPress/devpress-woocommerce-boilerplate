@@ -1,11 +1,11 @@
 {
-    "name": "devinsays/woocommerce-coupon-restrictions",
-    "description": "This extension allows you to create coupons with additional restriction options.",
+    "name": "devpress/devpress-woocommerce-boilerplate",
+    "description": "A foundation for building high-quality WooCommerce plugins.",
     "keywords": [
         "wordpress"
     ],
     "type": "wordpress-plugin",
-    "homepage": "https://github.com/devinsays/woocommerce-coupon-restrictions",
+    "homepage": "https://github.com/devpress/devpress-woocommerce-boilerplate",
     "license": "GPL-2.0+",
     "authors": [
         {
@@ -14,8 +14,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/devinsays/woocommerce-coupon-restrictions/issues",
-        "source": "https://github.com/devinsays/woocommerce-coupon-restrictions"
+        "issues": "https://github.com/devpress/devpress-woocommerce-boilerplate/issues",
+        "source": "https://github.com/devpress/devpress-woocommerce-boilerplate"
     },
     "require-dev": {
         "automattic/vipwpcs": "^2.3",
@@ -27,11 +27,11 @@
         "wp-cli/i18n-command": "^2.2.5"
     },
     "scripts": {
-        "make-pot": "wp i18n make-pot . languages/woocommerce-coupon-restrictions.pot"
+        "make-pot": "wp i18n make-pot . languages/devpress-woocommerce-boilerplate.pot"
     },
     "autoload-dev": {
         "psr-4": {
-            "WooCommerceCouponRestrictions\\Test\\": "tests/phpunit/"
+            "DevPress_WooCommerce_Boilerplate\\Test\\": "tests/phpunit/"
         },
         "classmap": [
             "includes/"

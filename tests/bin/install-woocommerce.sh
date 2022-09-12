@@ -11,8 +11,8 @@
 #   # Install woocommerce/woocommerce@master (default behavior)
 #   $ install-woocommerce.sh [latest]
 #
-#   # Install woocommerce/woocommerce@3.7
-#   $ install-woocommerce.sh 3.7
+#   # Install woocommerce/woocommerce@6.0.0
+#   $ install-woocommerce.sh 6.0.0
 #
 #   # Show debugging messages
 #   $ DEBUG=1 install-woocommerce.sh <version>

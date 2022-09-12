@@ -12,7 +12,7 @@ jobs:
           - "latest"
         wc_ver:
           - "latest"
-          - "5.9.1"
+          - "6.0.0"
 
     runs-on: ubuntu-latest
 
