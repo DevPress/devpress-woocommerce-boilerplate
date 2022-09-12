@@ -101,7 +101,7 @@ class DevPress_WooCommerce_Boilerplate {
 	 * @return void
 	 */
 	public function woocommerce_compatibility_notice() {
-		echo '<div class="error"><p>' . sprintf( __( '%1$s requires at least %2$s v%3$s in order to function. Please upgrade %2$s.', 'devpress-woocommerce-boilerplate' ), 'WooCommerce Coupon Restrictions', 'WooCommerce', $this->required_woo ) . '</p></div>';
+		echo '<div class="error"><p>' . sprintf( __( '%1$s requires at least %2$s v%3$s in order to function. Please upgrade %2$s.', 'devpress-woocommerce-boilerplate' ), 'DevPress WooCommerce Boilerplate', 'WooCommerce', $this->required_woo ) . '</p></div>';
 	}
 
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 VERSION=$1
-SLUG="woocommerce-coupon-restrictions"
+SLUG="devpress-woocommerce-boilerplate"
 
 if [[ "" = "$VERSION" ]]; then
 	VERSION=$(sed -n "s/ \* Version:[ ]*\(.*\)/\1/p" ${SLUG}.php)
