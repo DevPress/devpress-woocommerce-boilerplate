@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script updates the plugin name, slug and file names.
-# Run `chmod +x start.sh` to make it executable.
-# Then run `./start.sh` to start the process.
+# Run `chmod +x bin/start.sh` to make it executable.
+# Then run `./bin/start.sh` to start the process.
 
 bold=$(tput bold)
 normal=$(tput sgr0)
